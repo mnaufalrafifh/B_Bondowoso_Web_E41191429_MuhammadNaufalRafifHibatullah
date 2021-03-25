@@ -32,6 +32,6 @@ class ManagementUserController extends Controller
     }
 
     public function edit($id){
-        return "Method ini nantinya akan digunakan untuk menampilkan form untuk mengubah data edit dengan Halo id=". $id;
+        return "Method ini nantinya akan digunakan untuk menampilkan form untuk mengubah data edit dengan id=". $id;
     }
 }
